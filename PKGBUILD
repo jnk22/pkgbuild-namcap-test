@@ -5,7 +5,9 @@ pkgrel=1
 pkgdesc="Test."
 arch=('any')
 url="https://github.com/jnk22/pkgbuild-namcap-test"
+license=('MIT')
 depends=()
+makedepends=('git')
 source=("$pkgname-$pkgver::git+$url.git#tag=v$pkgver")
 sha256sums=('SKIP')
 
